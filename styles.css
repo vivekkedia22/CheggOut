@@ -14,7 +14,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+.tryOn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  gap:30px;
+}
+.buttons{
+  display: flex;
+  gap:15px;
+}
 
+.product_button{
+  padding:3px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  border-width: 0;
+}
+.tryOnButton{
+  padding:3px 10px;
+background-color: rgb(254, 251, 251);
+  border-radius: 5%;
+}
 .section__container {
   max-width: var(--max-width);
   margin: auto;
